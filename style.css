@@ -1,0 +1,90 @@
+.navbar {
+  position: relative;
+  height: 70px;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0, 0);
+}
+
+.navbar a {
+  color: black;
+  text-decoration: none;
+  display: inline-block;
+  line-height: 70px;
+  font-weight: 400;
+  display: inline-block;
+  float: right;
+  margin-right: 20px;
+  font-size: 19px;
+  padding: 10px 17px;
+  transition: 0.4s;
+  text-transform: uppercase;
+}
+.banners {
+  background-image: url(banner.jpg);
+  background-size: cover;
+  height: 100vh;
+}
+.navbar img {
+  width: 140px;
+  height: auto;
+  padding: 20px 50px;
+}
+body {
+  background-color: #edf0f7;
+}
+.USERS {
+  cursor: pointer;
+  background-position: center;
+  background-size: cover;
+  transition: 0.4s;
+  padding: none;
+  background-color: #edf0f7;
+  width: 100%;
+  display: inline-flex;
+  align-content: center;
+  border-left: 15px;
+  border-right: 15px;
+}
+.admin {
+  content: "  ";
+  background-image: url(Sans\ titre\ -\ 3_Plan\ de\ travail\ 1.png);
+  width: 400px;
+  height: 400px;
+  padding: 15px 25px;
+  margin: 10px 15px;
+  box-sizing: border-box;
+  display: inline-flex;
+  background-color: #edf0f7;
+}
+
+.member {
+  content: "  ";
+  padding: 15px 25px;
+  margin: 10px 15px;
+  box-sizing: border-box;
+  background-image: url(Sans\ titre\ -\ 3-02.png);
+  width: 400px;
+  height: 400px;
+  display: inline-flex;
+  background-color: #edf0f7;
+}
+.internaute {
+  content: "  ";
+  padding: 15px 25px;
+  margin: 10px 15px;
+  box-sizing: border-box;
+  background-image: url(Sans\ titre\ -\ 3-03.png);
+  width: 400px;
+  height: 400px;
+  display: inline-flex;
+  background-color: #edf0f7;
+}
+
+.button {
+  border: 0px;
+  width: 400px;
+  height: 400px;
+  text-decoration: none;
+}
